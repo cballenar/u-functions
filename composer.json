@@ -1,0 +1,41 @@
+{
+    "name": "undiario/u",
+    "description": "Functions developed for UNDiario",
+    "type": "craft-plugin",
+    "version": "2.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "undiario",
+        "µ functions"
+    ],
+    // "support": {
+    //     "docs": "???",
+    //     "issues": "???"
+    // },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Ballena",
+            "homepage": "https://cballenar.me"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "undiario\\u\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "µ Functions",
+        "handle": "u",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "class": "undiario\\u\\Functions"
+    }
+}
