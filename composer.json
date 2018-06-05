@@ -11,10 +11,10 @@
         "undiario",
         "µ functions"
     ],
-    // "support": {
-    //     "docs": "???",
-    //     "issues": "???"
-    // },
+    "support": {
+        "docs": "https://github.com/cballenar/u-functions/blob/master/README.md",
+        "issues": "https://github.com/cballenar/u-functions/issues"
+    },
     "license": "MIT",
     "authors": [
         {
@@ -35,7 +35,7 @@
         "handle": "u",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "???",
+        "changelogUrl": "https://raw.githubusercontent.com/cballenar/u-functions/master/CHANGELOG.md",
         "class": "undiario\\u\\Functions"
     }
 }
