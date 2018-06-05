@@ -110,7 +110,7 @@ class Functions extends Plugin
          */
         Craft::info(
             Craft::t(
-                'µ-functions',
+                'u',
                 '{name} plugin loaded',
                 ['name' => $this->name]
             ),
