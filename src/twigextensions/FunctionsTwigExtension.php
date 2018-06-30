@@ -50,7 +50,8 @@ class FunctionsTwigExtension extends \Twig_Extension
     public function getFilters()
     {
         return [
-            new \Twig_SimpleFilter('someFilter', [$this, 'camelToScored', 'scoredToCamel']),
+            new \Twig_SimpleFunction('camelToScored', [$this, 'camelToScored' ]),
+            new \Twig_SimpleFunction('scoredToCamel', [$this, 'scoredToCamel' ]),
         ];
     }
 
